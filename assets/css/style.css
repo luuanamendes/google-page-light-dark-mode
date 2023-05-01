@@ -36,6 +36,13 @@ header {
     gap: 12px;
 }
 
+header #mode_icon{
+    position: absolute;
+    left: 32px;
+    scale: 1.5;
+    cursor: pointer;
+}
+
 header a {
     color: var(--color-gray-600);
     text-decoration: none;
